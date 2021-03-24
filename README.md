@@ -28,6 +28,11 @@ Linguagens utilizadas:
 3 - SQL (tratamento de dados no BigQuery e análise de dados no Data Studio).
 
 
+Modelo conceitual:
+
+![modelo conceitual - desafio dotz](https://user-images.githubusercontent.com/50160018/112377768-e5188480-8cc4-11eb-888e-cbdf7e1b7575.png)
+
+
 Impementação:
 
 1 - Faça o download dos arquivos do projeto localizados no GitHub (https://github.com/mabdiel/desafio_dotz).
