@@ -1,0 +1,64 @@
+{
+  "BigQuery Schema": [
+    {
+      "name": "component_id",
+      "type": "STRING"
+    },
+    {
+      "name": "component_type_id",
+      "type": "STRING"
+    },
+    {
+      "name": "type",
+      "type": "STRING"
+    },
+    {
+      "name": "connection_type_id",
+      "type": "STRING"
+    },
+    {
+      "name": "outside_shape",
+      "type": "STRING"
+    },
+    {
+      "name": "base_type",
+      "type": "STRING"
+    },
+    {
+      "name": "height_over_tube",
+      "type": "STRING"
+    },
+    {
+      "name": "bolt_pattern_long",
+      "type": "STRING"
+    },
+    {
+      "name": "bolt_pattern_wide",
+      "type": "STRING"
+    },
+    {
+      "name": "groove",
+      "type": "STRING"
+    },
+    {
+      "name": "base_diameter",
+      "type": "STRING"
+    },
+    {
+      "name": "shoulder_diameter",
+      "type": "STRING"
+    },
+    {
+      "name": "unique_feature",
+      "type": "STRING"
+    },
+    {
+      "name": "orientation",
+      "type": "STRING"
+    },
+    {
+      "name": "weight",
+      "type": "STRING"
+    }
+  ]
+}
