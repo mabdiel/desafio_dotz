@@ -104,11 +104,4 @@ Impementação:
 
 7.3.8 - Clique no botão para executar o job.
 
-8 - 
-
-
-
-
-
-
-
+8 - Acesse o relatório de vizualização e análise dos dados no Data Studio (https://datastudio.google.com/reporting/6876990e-bc1d-434d-99d7-a79dd8c41045).
