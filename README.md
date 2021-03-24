@@ -9,6 +9,8 @@ IMPORTANTE:
 
 3 - O Dataflow foi utilizado para construir os jobs de ingestão.
 
-4 - O BigQuery foi utilizado para armazernas os dados oriundos dos processos de ingestão e suporte no tratamento de dados.
+4 - O BigQuery foi utilizado para armazernas os dados de saídas para os processos de ingestão e suporte no tratamento de dados.
 
 5 - O Data Studio foi utilizado para análise e visualização de dados.
+
+![image](https://user-images.githubusercontent.com/50160018/112354949-f43f0880-8cab-11eb-8095-5f93560d50b0.png)
