@@ -5,6 +5,7 @@ Arquitetura técnica:
 
 Foi utilizado o padrão de arquitetura Lambda para as soluções de ingestão, processamento, análise e visualização de dados.
 
+
 Ferramentas utilizadas no desenvolvimento:
 
 1 - Os processos de ingestão e análise de dados foram criados no ambiente GCP.
@@ -17,6 +18,7 @@ Ferramentas utilizadas no desenvolvimento:
 
 5 - Data Studio (análise e visualização de dados).
 
+
 Linguagens utilizadas:
 
 1 - JSON (definição do schema das tabelas no Dataflow).
@@ -24,6 +26,7 @@ Linguagens utilizadas:
 2 - JavaScript (fornece a lógica para transformar as linhas de texto numa saída string JSON no Dataflow).
 
 3 - SQL (tratamento de dados no BigQuery e análise de dados no Data Studio).
+
 
 Impementação:
 
@@ -45,6 +48,8 @@ Impementação:
 
 7 - Crie os seguintes jobs no Dataflow, usando o modelo "Text Files on Cloud Storage to BigQuery":
 
+![image](https://user-images.githubusercontent.com/50160018/112366167-3e79b700-8cb7-11eb-9f4e-f1bbc764eb66.png)
+
 7.1 - Nome do job: ingest_bill_of_materials
 
 7.1.1 - javascriptTextTransformGcsPath: gs://desafio_dotz/transform_udf_bill_of_materials.js
@@ -60,6 +65,8 @@ Impementação:
 7.1.6 - bigQueryLoadingTemporaryDirectory: gs://desafio_dotz/bq_temp/bill_of_materials
 
 7.1.7 - gcpTempLocation: gs://desafio_dotz/local_temp
+
+7.1.8 - Clique no botão para executar o job.
 
 7.2 - Nome do job: ingest_comp_boss
 
@@ -77,7 +84,27 @@ Impementação:
 
 7.2.7 - gcpTempLocation: gs://desafio_dotz/local_temp
 
+7.2.8 - Clique no botão para executar o job.
 
+7.3 - Nome do job: ingest_price_quote
+
+7.3.1 - javascriptTextTransformGcsPath: gs://desafio_dotz/transform_udf_price_quote.js
+
+7.3.2 - JSONPath: gs://desafio_dotz/bigquery_schema_price_quote.json
+
+7.3.3 - javascriptTextTransformFunctionName: transform
+
+7.3.4 - outputTable: dotz-308423:desafio_dotz.price_quote
+
+7.3.5 - inputFilePattern: gs://desafio_dotz/price_quote.csv
+
+7.3.6 - bigQueryLoadingTemporaryDirectory: gs://desafio_dotz/bq_temp/price_quote
+
+7.3.7 - gcpTempLocation: gs://desafio_dotz/local_temp
+
+7.3.8 - Clique no botão para executar o job.
+
+8 - 
 
 
 
