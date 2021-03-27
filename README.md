@@ -6,6 +6,7 @@ Arquitetura técnica:
 Foi utilizado o padrão de arquitetura Lambda para as soluções de ingestão, processamento, análise e visualização de dados.
 
 
+
 Ferramentas utilizadas no desenvolvimento:
 
 1 - Os processos de ingestão e análise de dados foram criados no ambiente GCP.
@@ -19,6 +20,7 @@ Ferramentas utilizadas no desenvolvimento:
 5 - Data Studio (análise e visualização de dados).
 
 
+
 Linguagens utilizadas:
 
 1 - JSON (definição do schema das tabelas no Dataflow).
@@ -28,9 +30,11 @@ Linguagens utilizadas:
 3 - SQL (tratamento de dados no BigQuery e análise de dados no Data Studio).
 
 
+
 Modelo conceitual:
 
-![modelo conceitual - desafio dotz](https://user-images.githubusercontent.com/50160018/112377768-e5188480-8cc4-11eb-888e-cbdf7e1b7575.png)
+![modelo conceitual - desafio dotz](https://user-images.githubusercontent.com/50160018/112725260-0d3afa00-8ef6-11eb-8ae0-35a14b5966a9.png)
+
 
 
 Impementação:
@@ -108,5 +112,7 @@ Impementação:
 7.3.7 - gcpTempLocation: gs://desafio_dotz/local_temp
 
 7.3.8 - Clique no botão para executar o job.
+
+
 
 8 - Acesse o relatório de vizualização e análise dos dados no Data Studio (https://datastudio.google.com/reporting/6876990e-bc1d-434d-99d7-a79dd8c41045).
